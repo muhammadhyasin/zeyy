@@ -1,0 +1,72 @@
+.contact-page {
+    display: flex; 
+    flex-direction: column; 
+    background-color: rgba(255, 251, 224, 0.726); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 20px auto; 
+    height: 75vh; 
+}
+  
+.contact-page h2 {
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+  
+.form-container {
+    width: 100%; 
+}
+  
+.contact-page .form-label {
+    color: #555;
+    font-weight: 500; 
+    margin-bottom: 5px; 
+}
+  
+.contact-page input,
+.contact-page textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+  
+.contact-page .btn-primary {
+    background-color: #ffc400;
+    border-color: #ffc400;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+    position: relative;
+    overflow: hidden; 
+}
+  
+.contact-page .btn-primary:hover {
+    background-color: #000000d0; 
+    border-color: #000000d0;
+    transform: none;
+    text-decoration: none; 
+    color: #ffd900; 
+}
+  
+
+
+.contact-page .tick-icon {
+    color: #00ff3c; 
+    font-size: 1.2rem;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10%;
+}

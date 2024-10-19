@@ -1,0 +1,58 @@
+.order-placed-container {
+    min-height: 75vh;
+    background-color: #f8f9fa00; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    position: relative;
+}
+.order-dialouge{
+    background-color: #fdf4ca;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px;
+}
+.box {
+    background-color: #ffd900;
+    color: #ffffff; 
+    padding: 30px 40px; 
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    margin: 0;
+    width: auto; 
+    max-width: 100%; 
+    animation: beating 1.5s infinite; 
+}
+
+.message {
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 30px; 
+}
+
+.message p {
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    color: #fbdb5b;
+    text-shadow: 
+    2px 1px 1px rgba(167, 101, 3, 0.863);
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+@keyframes beating {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.04);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

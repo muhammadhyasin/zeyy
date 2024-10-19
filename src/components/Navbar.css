@@ -1,0 +1,84 @@
+.navbar {
+  background-color: #ffc400; 
+  z-index: 1000; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #ffd500; 
+  padding: 0.5rem 1rem; 
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  color: #000000; 
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+  transition: color 0.5s ease;
+}
+
+.nav-link {
+  color: #000000; 
+  transition: color 0.3s ease; 
+}
+
+.nav-link:hover {
+  color: #ffffff; 
+}
+
+.navbar-nav {
+  margin-left: auto; 
+}
+
+.nav-item {
+  margin-left: 1rem; 
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.navbar-toggler {
+  border-color: #f8f9fa; 
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"%3E%3Cpath stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /%3E%3C/svg%3E'); 
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 1rem;
+}
+
+.badge {
+  font-size: 0.875rem; 
+  padding: 0.3rem 0.5rem; 
+  background-color: #ac9004;
+}
+
+
+.nav-link.disabled {
+  color: #f8f9fa;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    flex-direction: column; 
+    width: 100%;
+    background-color: #ffd500; 
+    border-top: 1px solid #ffd500; 
+  }
+
+  .navbar-nav {
+    margin: 0; 
+  }
+
+  .nav-item {
+    margin: 0.5rem 0; 
+  }
+}

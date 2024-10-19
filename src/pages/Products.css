@@ -1,0 +1,137 @@
+body {
+  
+}
+
+.products-container {
+  background-image: url('C:\Users\muham_bfx3r\Downloads\E-commerce-master\E-commerce-master\src\assets\bg-2.jpg');
+  padding: 20px;
+  background-color: transparent; 
+  min-height: calc(100vh - 60px); 
+  font-size: large;
+}
+
+.products-heading {
+  font-size: 2.6rem;
+  color: #ffd900;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 
+  3px 1px 2px rgba(167, 101, 3, 0.863);
+}
+
+.product-card {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.873);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto; 
+    max-height: 200px; 
+    object-fit: contain; 
+}
+
+.product-card .card-body {
+    padding: 15px;
+    text-align: center;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.product-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    white-space: normal; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-card .card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px; 
+}
+
+.product-card .btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-top: auto; 
+    align-self: center; 
+}
+
+.product-card .btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.order-placed-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.75); 
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+.popup {
+  position: relative; 
+  background-color: #28a745; 
+  color: #ffffff; 
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  animation: popupAnimation 1s ease-in-out, beating 1.5s infinite; 
+  margin-bottom: 30px; 
+}
+
+.message {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.message p {
+  font-size: 1.25rem;
+  margin: 10px 0;
+}
+
+@keyframes popupAnimation {
+  from {
+      opacity: 0;
+      transform: scale(0.5);
+  }
+  to {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+@keyframes beating {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.05);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
