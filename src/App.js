@@ -41,7 +41,7 @@ function AppContent() {
 function App() {
   return (
     <Provider store={store}>
-      <Router basename="/E-commerce">
+      <Router basename="/zeyy">
         <AppContent />
       </Router>
     </Provider>
