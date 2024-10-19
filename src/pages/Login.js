@@ -18,7 +18,7 @@ function Login() {
 
       dispatch(setUserName(user.name));
 
-      navigate('/E-Commerce'); 
+      navigate('/Home'); 
     } else {
       alert('Please enter both username and password.');
     }
