@@ -23,7 +23,7 @@ function NavbarComponent() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link as={Link} to="/E-Commerce">Home</Nav.Link>
+          <Nav.Link as={Link} to="/Home">Home</Nav.Link>
           <Nav.Link as={Link} to="/products">Products</Nav.Link>
           <NavDropdown title="Categories" id="basic-nav-dropdown">
             <NavDropdown.Item as={Link} to="/products?category=electronics">Electronics</NavDropdown.Item>
